@@ -47,7 +47,7 @@ body {
 .tag small { font-family: var(--body); font-weight: 800; font-size: 11px; letter-spacing: .12em; margin-left: 6px; text-transform: uppercase; }
 .mail-top { font-size: 12px; color: var(--ink-soft); }
 .headline { font-family: var(--display); font-size: clamp(76px, 22vw, 150px); line-height: .86; margin: 6px 0 0; letter-spacing: .005em; color: #e9e9ec; text-align: center; }
-.hero { display: grid; grid-template-columns: 1fr minmax(0, 1.25fr) 1fr; align-items: end; gap: 8px; margin-top: -46px; position: relative; }
+.hero { display: grid; grid-template-columns: 1fr minmax(0, 1.25fr) 1fr; align-items: end; gap: 8px; margin-top: 16px; position: relative; }
 .photo { position: relative; z-index: 1; }
 .photo img { display: block; width: 100%; height: auto; border-radius: 6px; box-shadow: 0 10px 30px rgba(0,0,0,.45); }
 .niches { align-self: center; font-size: 13px; min-width: 0; }
@@ -105,7 +105,7 @@ h2 { font-weight: 800; font-size: clamp(22px, 5.4vw, 30px); text-align: center; 
 .toast { margin-top: 12px; font-size: 12px; color: var(--gold); min-height: 1.2em; }
 
 @media (max-width: 520px) {
-  .hero { grid-template-columns: 1fr 1fr; margin-top: -24px; }
+  .hero { grid-template-columns: 1fr 1fr; margin-top: 14px; }
   .photo { grid-column: 1 / -1; order: -1; max-width: 300px; justify-self: center; width: 80%; }
   .about { grid-template-columns: 1fr; }
   .about-photo { max-width: 220px; justify-self: center; width: 100%; }
