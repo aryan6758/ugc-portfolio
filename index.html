@@ -82,6 +82,8 @@ h2 { font-weight: 800; font-size: clamp(22px, 5.4vw, 30px); text-align: center; 
 .band { margin: 24px calc(-1 * clamp(20px, 5vw, 36px)) calc(-1 * clamp(20px, 5vw, 36px)); padding: 18px 16px; background: var(--stage); text-align: center; font-weight: 800; font-size: clamp(18px, 4.6vw, 24px); }
 
 /* page 3 */
+.solo { max-width: 340px; margin: 0 auto; }
+.solo video { width: 100%; aspect-ratio: 9 / 16; border-radius: 6px; background: #000; display: block; object-fit: cover; box-shadow: 0 10px 30px rgba(0,0,0,.45); }
 .reels { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px 14px; }
 .reel { display: grid; gap: 6px; text-align: center; min-width: 0; }
 .fmt { font-size: 10.5px; color: var(--ink-soft); line-height: 1.35; min-height: 2.7em; }
@@ -156,37 +158,8 @@ h2 { font-weight: 800; font-size: clamp(22px, 5.4vw, 30px); text-align: center; 
   </section>
 
   <section class="page" aria-label="Work">
-    <div class="reels">
-      <div class="reel">
-        <div class="fmt"><strong>Talking Head + Screen Demo</strong><span>Makon AI</span></div>
-        <video src="assets/reel01.mp4" poster="assets/reel01.jpg" controls muted playsinline preload="metadata"></video>
-        <div class="views">15k+ views</div>
-      </div>
-      <div class="reel">
-        <div class="fmt"><strong>Fitness / Calisthenics</strong><span>Original content</span></div>
-        <video src="assets/dhir_journey.mp4" poster="assets/dhir_journey.jpg" controls muted playsinline preload="metadata"></video>
-        <div class="views">5K+ Views</div>
-      </div>
-      <div class="reel">
-        <div class="fmt"><strong>Talking Head + Green Screen</strong><span>Folk</span></div>
-        <video src="assets/reel02.mp4" poster="assets/reel02.jpg" controls muted playsinline preload="metadata"></video>
-        <div class="views">90k + views</div>
-      </div>
-      <div class="reel">
-        <div class="fmt"><strong>Talking Head + Screen Demo</strong><span>HeyGen</span></div>
-        <video src="assets/reel03.mp4" poster="assets/reel03.jpg" controls muted playsinline preload="metadata"></video>
-        <div class="views">Spec ad</div>
-      </div>
-      <div class="reel">
-        <div class="fmt"><strong>Fitness / Calisthenics</strong><span>Original content</span></div>
-        <video src="assets/dhir_muscleup.mp4" poster="assets/dhir_muscleup.jpg" controls muted playsinline preload="metadata"></video>
-        <div class="views">5K+ Views</div>
-      </div>
-      <div class="reel">
-        <div class="fmt"><strong>Talking Head + Screen Demo</strong><span>Makon AI</span></div>
-        <video src="assets/reel04.mp4" poster="assets/reel04.jpg" controls muted playsinline preload="metadata"></video>
-        <div class="views">50k+ Views</div>
-      </div>
+    <div class="solo">
+      <video src="assets/showreel.mp4" poster="assets/showreel.jpg" controls playsinline preload="metadata"></video>
     </div>
     <div class="pnum">3 / 4</div>
   </section>
